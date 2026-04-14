@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book & Pay | Opulent Lash & Strand Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><span>✨Opulent Lash✨</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact/Book</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="padding-top: 100px;">
+        <section class="animate-on-load">
+            <h1 class="section-title">Reserve Your Appointment</h1>
+            <p style="text-align: center; color: var(--text-secondary); max-width: 700px; margin: 0 auto 3rem;">Please use the calendar below to secure your time. For deposits or full payments ahead of time, utilize our secure payment portal.</p>
+            
+            <div class="about-layout" style="align-items: flex-start;">
+                <!-- Payment Portal -->
+                <div class="integration-section">
+                    <h2 style="margin-bottom: 1rem;">Secure Payment Portal</h2>
+                    <p style="margin-bottom: 2rem;">A non-refundable $50 deposit is required to secure your booking. The remainder can be paid in-studio.</p>
+                    
+                    <div style="background: rgba(255,255,255,0.05); padding: 2rem; border-radius: 8px; text-align: center; border: 1px solid var(--accent-gold);">
+                        <h3 style="margin-bottom: 1rem;">Pay via PayPal</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 2rem;">Fast, safe, and secure transaction.</p>
+                        <!-- Fake PayPal Link Box -->
+                        <a href="https://paypal.me/fake_opulent_lash" target="_blank" class="btn primary" style="width: 100%; border-radius: 4px;">Pay Deposit ($50)</a>
+                        <br><br>
+                        <a href="https://paypal.me/fake_opulent_lash" target="_blank" class="btn" style="width: 100%; border-radius: 4px;">Custom Payment</a>
+                    </div>
+                    
+                    <div style="margin-top: 3rem;">
+                        <h3>Contact Information</h3>
+                        <br>
+                        <p><strong>Studio Address:</strong> [Address Placeholder]</p>
+                        <p><strong>Phone:</strong> [Phone Placeholder]</p>
+                        <p><strong>Email:</strong> [Email Placeholder]</p>
+                    </div>
+                </div>
+
+                <!-- Calendly Embed -->
+                <div>
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/fake-calendly-opulent-lash" style="min-width:320px;height:700px; border-radius: 10px; background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+                        <!-- Fallback visual if script fails or Calendly doesn't load nicely -->
+                        <div style="color: black; padding: 2rem; text-align: center;">
+                            <h2>Fake Calendly Embed</h2>
+                            <p>This is where the calendly widget will load for clients to pick a date and time.</p>
+                        </div>
+                    </div>
+                    <!-- Calendly Embed script (We include it, but the data-url will just fail gracefully or show an error since it's fake) -->
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p><strong>✨Opulent Lash & Strand Studio✨</strong></p>
+            <p>&copy; 2026 Opulent Lash & Strand Studio.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
